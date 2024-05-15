@@ -9,7 +9,7 @@ HTML Advanced
 This project is the starting foundation of a website. It's the skeletal structure built entirely in HTML. The Project is a walkthrough on how to create the layout starting with the Header, all the way down to the Footer.
 
 Ideally, the finished project will look like this
-![Finished Project](https://ibb.co/fHbNWQR)
+![Finished Project](https://raw.githubusercontent.com/bcart01v/Images/main/1f4cd63ecc3a8c03b0f4309b74aca179e225aabf.jpg?token=GHSAT0AAAAAACMI6F4WR4JEMWIEINOU36JMZSE5XRQ)
 
 Note: I used Star Wars references in my initial build out to keep myself entertained while working on the project. When adding the CSS, I will be changing all the headers to match the original website.
 ## Learning Objectives
