@@ -10,10 +10,7 @@ body {
     background: radial-gradient(circle, #29303D 0.01%, #071629 100%);
 }
 
-.container {
-
-}
-
+/* Header Properties */
 .header_main {
     display: flex;
     justify-content: space-between;
@@ -46,6 +43,10 @@ body {
     text-decoration: underline;
 }
 
+/*End Header /*
+
+/* Smile Section */
+
 .main-section {
     display: flex;
     flex-direction: column;
@@ -58,8 +59,16 @@ body {
     overflow: hidden;
     background: transparent;
     align-items: center;
+    background-image: url('images/backgroundimage.png');
+    filter:grayscale(100%);
 }
 
+.smile_section {
+    /* Any logic for smiles would be here */
+}
+
+
+/*
 .main-section:before {
     width: 1440px;
     content: '';
@@ -74,7 +83,7 @@ body {
     filter: grayscale(100%);
     z-index: -1;
 }
-
+*/
 .mainh1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 120px;
@@ -86,21 +95,8 @@ body {
     font-weight: 600;
 }
 
-.button {
-    width: 200px;
-    height: 50px;
-    color: #FFF;
-    background-color: #C271FF;
-    border: none;
-    border-radius: 25px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-}
+/* End Smile Section */
 
-.button:hover {
-    background-color: #A15ED9;
-}
 
 .learn {
     color: #C271FF;
@@ -214,3 +210,100 @@ body {
     height: 30px;
     border-radius: 50%;
 }
+
+.memberships {
+    display: grid;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #071629;
+    height: 502px;
+}
+
+.memberships h1 {
+    justify-self: center;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.membership_grid {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    justify-content: space-around;
+}
+
+.membership_card {
+    width: 257px;
+    height: 168px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    color: #071629
+}
+
+.faq h1 {
+    align-self: center;
+    font-size: 60px;
+    font-weight: 300;
+
+}
+
+.faq_box {
+    width: 920px;
+    height: 707px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.faq_box_card {
+    width: 350px;
+    height: 242px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1440px;
+    height: 249px;
+}
+
+.footer_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer p {
+    opacity: 35.17%;
+    color: white;
+    display: flex;
+}
+
+
+/* Universal Styling */
+
+
+.button {
+    width: 200px;
+    height: 50px;
+    color: #FFF;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    justify-self: center;
+}
+
+.button:hover {
+    background-color: #A15ED9;
+}
+
+/* End Universal Styling /*
