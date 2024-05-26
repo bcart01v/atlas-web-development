@@ -1,16 +1,20 @@
 /* General Styling */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
 
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 1440px;
     font-family: 'Source Sans Pro', sans-serif;
-    background: radial-gradient(circle, #29303D 0.01%, #071629 100%);
+    background-color: #F2F2F2;
 }
 
-/* Header Properties */
+
 .header_main {
     display: flex;
     justify-content: space-between;
@@ -43,10 +47,6 @@ body {
     text-decoration: underline;
 }
 
-/*End Header /*
-
-/* Smile Section */
-
 .main-section {
     display: flex;
     flex-direction: column;
@@ -59,16 +59,14 @@ body {
     overflow: hidden;
     background: transparent;
     align-items: center;
-    background-image: url('images/backgroundimage.png');
-    filter:grayscale(100%);
 }
 
 .smile_section {
-    /* Any logic for smiles would be here */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-
-/*
 .main-section:before {
     width: 1440px;
     content: '';
@@ -77,13 +75,12 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url('images/backgroundimage.png');
+    background-image: url('images/background.png');
     background-size: cover;
     background-position: center;
-    filter: grayscale(100%);
     z-index: -1;
 }
-*/
+
 .mainh1 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 120px;
@@ -95,8 +92,22 @@ body {
     font-weight: 600;
 }
 
-/* End Smile Section */
+.button {
+    width: 200px;
+    height: 50px;
+    color: #FFF;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    justify-self: center;
+}
 
+.button:hover {
+    background-color: #A15ED9;
+}
 
 .learn {
     color: #C271FF;
@@ -185,7 +196,18 @@ body {
     display: flex;
     flex-direction: column;
     width: 1440px;
-    height: 502px;
+    height: 750px;
+    justify-content: center;
+}
+
+.tutorials h1 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.tutorials h1 span {
+    color: #C271FF;
+    font-weight: bold;
 }
 
 .tutorials_main_image {
@@ -203,6 +225,21 @@ body {
     justify-content: space-around;
     width: 255px;
     height: 355px;
+}
+
+.tutorial_card_test h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #071629;
+    line-height: normal;
+}
+
+.tutoral_card_test p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(7, 22, 41, 0.50);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .profile_photo {
@@ -284,26 +321,3 @@ body {
     color: white;
     display: flex;
 }
-
-
-/* Universal Styling */
-
-
-.button {
-    width: 200px;
-    height: 50px;
-    color: #FFF;
-    background-color: #C271FF;
-    border: none;
-    border-radius: 25px;
-    font-size: 16px;
-    font-weight: 600;
-    cursor: pointer;
-    justify-self: center;
-}
-
-.button:hover {
-    background-color: #A15ED9;
-}
-
-/* End Universal Styling /*
