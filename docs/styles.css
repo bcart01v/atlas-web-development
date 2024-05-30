@@ -1,0 +1,463 @@
+/* General Styling */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 1440px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #000000;
+}
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    width: 100%;
+    height: 29.46px;
+    margin-top: 35.02px;
+    position: absolute;
+    z-index: 10;
+}
+
+.head-logo img {
+    height: 40px;
+    margin-left: 171.59px;
+}
+
+.head-nav-links {
+    margin-right: 171.59px;
+}
+
+.head-nav-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.head-nav-links a:hover {
+    text-decoration: underline;
+}
+
+.main-section {
+    background-image: url(images/background.png);
+    width: 100%;
+    max-width: 1440px;
+    height: 1093px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.mainp {
+    margin-top: -10px;
+}
+
+.smile_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 140px;
+    text-align: center;
+}
+
+.smile_section h1 {
+    color: #FFFFFF;
+    font-size: 120px;
+    font-weight: 700;
+    text-align: center;
+    height: 50px;
+}
+
+.smile_section span {
+    margin: 20px 40px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 20px;
+}
+
+.smile_section button {
+    height: 44px;
+    width: 162px;
+    background-color: #C271FF;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 0px;
+    border-radius: 22px;
+    padding: 13px 20px;
+    box-shadow: 0px 0px 20px 3px #494949;
+}
+
+.mainh1 {
+    font-size: 120px;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+.button {
+    height: 44px;
+    width: 162px;
+    background-color: #C271FF;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 22px;
+    padding: 13px 20px;
+    box-shadow: 0px 0px 20px 3px #494949;
+}
+
+.button:hover {
+    background-color: #A15ED9;
+}
+
+.learn {
+    color: #C271FF;
+}
+
+.subheader {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.profile_group_master {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.profile_group {
+    text-align: center;
+    margin: 0 20px;
+}
+
+.profile_group img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile_group h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.profile_group p {
+    margin: 5px 0;
+    font-style: italic;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    height: 392px;
+    background-color: #C271FF;
+}
+
+.testimonial_sub {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 943px;
+}
+
+.testimonial_sub img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover; 
+    object-position: center top;
+}
+
+.testimonial_text {
+    max-width: 700px;
+    color: #FFFFFF;
+}
+
+.testimonial_text blockquote {
+    font-size: 22px;
+    margin: 0 0 10px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.person_header {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: -10px;
+}
+
+.person_sub {
+    font-style: italic;
+    font-weight: 400;
+}
+
+.tutorials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 700px;
+}
+
+.tutorials h1 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.tutorials h1 span {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.tutorials_main_image {
+    width: 255px;
+    height: 154px;
+    position: relative;
+}
+
+.tutorial_grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    background-color: #FFFFFF;
+    padding: 30px 20px;
+    width: 100%;
+    max-width: 1228px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.tutorial_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 255px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.tutorial_card h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 7px 5px 7px;
+}
+
+.tutorial_card p {
+    color: #07162980;
+    font-size: 14px;
+    width: 242px;
+    margin-bottom: 20px;
+    margin-left: 7px;
+}
+
+.tutorial_card .playbutton {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    width: 50px; 
+    height: 50px;
+    z-index: 10;
+}
+
+.tutorial_card .profile_photo {
+    display: flex;
+    align-items: center;
+}
+
+.profile_section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 135px;
+    justify-content: space-around;
+}
+
+.profile_section h3 {
+    color: #C271FF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.begin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 7px;
+    position: relative;
+    width: 100%;
+}
+
+.begin p {
+    color: #C271FF;
+    margin-left: auto;
+}
+
+.star-container {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 600px;
+}
+
+.memberships {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #071629;
+    height: 502px;
+}
+
+.memberships h1 {
+    justify-self: center;
+    font-weight: 200;
+    color: #FFF;
+    font-size: 32px;
+    line-height: normal;
+    margin-top: 60px;
+}
+
+.memberships span {
+    color: #C271FF;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.membership_grid {
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    justify-content: space-around;
+    height: 153px;
+}
+
+.membership_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 257px;
+    height: 153px;
+}
+
+.membership_card h2 {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+}
+
+.membership_card p {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    width: 212px;
+    height: 52px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    color: #071629;
+}
+
+.faq h1 {
+    align-self: center;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.faq_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 920px;
+    height: 707px;
+}
+
+.faq_box_card {
+    width: 350px;
+    height: 242px;
+}
+
+.faq_box_card h2 {
+    color: #071629;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.faq_box_card p {
+    color: rgba(7, 22, 41, 0.5);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    background-color: #071629;
+    width: 100%;
+    max-width: 1440px;
+    height: 249px;
+}
+
+.footer_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.footer .footer_image {
+    width: 169px;
+    height: 30px;
+    padding-right: 300px;
+}
+
+.footer p {
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.3517;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.social_links {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    height: 30px;
+}
