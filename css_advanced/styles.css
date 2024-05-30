@@ -9,20 +9,19 @@ body {
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    width: 1440px;
+    max-width: 1440px;
     font-family: 'Source Sans Pro', sans-serif;
     background-color: #000000;
 }
 
-
 .header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background: transparent;
     width: 100%;
     height: 29.46px;
     margin-top: 35.02px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     position: absolute;
     z-index: 10;
 }
@@ -50,7 +49,8 @@ body {
 
 .main-section {
     background-image: url(images/background.png);
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: 1093px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -62,13 +62,12 @@ body {
 }
 
 .smile_section {
-    padding-top: 140px;
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 140px;
+    text-align: center;
 }
-
 
 .smile_section h1 {
     color: #FFFFFF;
@@ -98,14 +97,11 @@ body {
     box-shadow: 0px 0px 20px 3px #494949;
 }
 
-
 .mainh1 {
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 120px;
     font-weight: 700;
     margin-top: 80px;
 }
-
 
 .button {
     height: 44px;
@@ -172,7 +168,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: 392px;
     background-color: #C271FF;
 }
@@ -192,7 +189,6 @@ body {
     object-position: center top;
 }
 
-
 .testimonial_text {
     max-width: 700px;
     color: #FFFFFF;
@@ -210,7 +206,6 @@ body {
     font-size: 22px;
     font-weight: 700;
     margin-bottom: -10px;
-
 }
 
 .person_sub {
@@ -219,13 +214,13 @@ body {
 }
 
 .tutorials {
-    background-color: #FFFFFF;
-    width: 100%;
-    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 700px;
 }
 
 .tutorials h1 {
@@ -245,25 +240,26 @@ body {
 }
 
 .tutorial_grid {
-    background-color: #fff;
-    padding: 30px 20px;
-    width: 1228px;
-    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 20px;
+    background-color: #FFFFFF;
+    padding: 30px 20px;
+    width: 100%;
+    max-width: 1228px;
+    height: auto;
+    flex-wrap: wrap;
 }
 
-
 .tutorial_card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     width: 255px;
     height: auto;
     margin: auto;
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
 }
 
 .tutorial_card h2 {
@@ -273,7 +269,7 @@ body {
 }
 
 .tutorial_card p {
-    color: rgba(7, 22, 41, 0.5016);
+    color: #07162980;
     font-size: 14px;
     width: 242px;
     margin-bottom: 20px;
@@ -295,7 +291,6 @@ body {
     align-items: center;
 }
 
-
 .profile_section {
     display: flex;
     flex-direction: row;
@@ -312,11 +307,11 @@ body {
 }
 
 .begin {
-    margin: 0 7px;
-    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 7px;
+    position: relative;
     width: 100%;
 }
 
@@ -331,7 +326,6 @@ body {
     gap: 6px;
     width: 600px;
 }
-
 
 .memberships {
     display: flex;
@@ -349,14 +343,12 @@ body {
     font-size: 32px;
     line-height: normal;
     margin-top: 60px;
-
 }
 
 .memberships span {
     color: #C271FF;
     font-weight: 700;
     font-size: 32px;
-
 }
 
 .membership_grid {
@@ -396,24 +388,23 @@ body {
 .faq {
     display: flex;
     flex-direction: column;
-    background-color: white;
     align-items: center;
-    color: #071629
+    background-color: white;
+    color: #071629;
 }
 
 .faq h1 {
     align-self: center;
     font-size: 60px;
     font-weight: 300;
-
 }
 
 .faq_box {
-    width: 920px;
-    height: 707px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 920px;
+    height: 707px;
 }
 
 .faq_box_card {
@@ -428,7 +419,7 @@ body {
 }
 
 .faq_box_card p {
-    color: #07162980;
+    color: rgba(7, 22, 41, 0.5);
 }
 
 .footer {
@@ -437,7 +428,8 @@ body {
     align-items: stretch;
     justify-content: space-around;
     background-color: #071629;
-    width: 1440px;
+    width: 100%;
+    max-width: 1440px;
     height: 249px;
 }
 
@@ -451,20 +443,21 @@ body {
 .footer .footer_image {
     width: 169px;
     height: 30px;
+    padding-right: 300px;
 }
 
 .footer p {
     font-size: 12px;
-    font-weight: 400px;
-    opacity: 35.17%;
+    font-weight: 400;
+    opacity: 0.3517;
     color: #FFFFFF;
     display: flex;
     justify-content: center;
 }
 
 .social_links {
-    width: 130px;
-    height: 30px;
     display: flex;
     justify-content: space-between;
+    width: 130px;
+    height: 30px;
 }
